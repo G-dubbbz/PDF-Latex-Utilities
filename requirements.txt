@@ -1,0 +1,7 @@
+#on MacOS: brew install poppler 
+
+pypdf
+pdf2image
+pillow
+requests
+pdfplumber
