@@ -1,11 +1,3 @@
-# wordcount.py
-# Counts words in a LaTeX-compiled PDF, only for main matter pages
-# (arabic numeral pages, up to but not including the bibliography).
-#
-# Place your compiled PDF in ./Input/ and run:
-#   python3 wordcount.py
-#   python3 wordcount.py --verbose   # show per-page breakdown
-
 import sys
 import re
 import glob

@@ -1,13 +1,3 @@
-# doi_to_bibtex.py
-# Fetches BibTeX entries from DOIs using the CrossRef API.
-# Usage:
-#   Single DOI:   python3 doi_to_bibtex.py 10.1145/3411764.3445518
-#   From file:    python3 doi_to_bibtex.py ./Input/dois.txt
-#   Interactive:  python3 doi_to_bibtex.py
-#
-# Reads DOI text files from ./Input/
-# Output is appended to ../../*Output/references.bib
-
 import sys
 import re
 import os

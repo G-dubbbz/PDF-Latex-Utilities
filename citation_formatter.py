@@ -1,18 +1,3 @@
-# citation_formatter.py
-# Cleans and formats messy .bib files:
-#   - Removes duplicate entries (by DOI or citation key)
-#   - Standardizes field order and indentation
-#   - Fixes common issues (missing braces, unescaped special chars)
-#   - Generates clean citation keys (AuthorYEARword)
-#   - Reports unused entries vs your .tex files
-#
-# Reads .bib files from ./Input/
-# Writes cleaned .bib files to ../../*Output/
-#
-# Usage:
-#   python3 citation_formatter.py                   # cleans all .bib files in ./Input/
-#   python3 citation_formatter.py --check ./path    # also reports unused entries in .tex files
-
 import sys
 import os
 import re
